@@ -1,0 +1,300 @@
+t=2017-09-29T10:22:14+0200 lvl=info msg="no configuration paths supplied"
+t=2017-09-29T10:22:14+0200 lvl=info msg="using configuration at default config path" path=C:\\Users\\Jim/.ngrok2/ngrok.yml
+t=2017-09-29T10:22:14+0200 lvl=info msg="open config file" path=C:\\Users\\Jim\\.ngrok2\\ngrok.yml err=nil
+t=2017-09-29T10:22:14+0200 lvl=info msg="run component" obj=controller comp=consoleui
+t=2017-09-29T10:22:14+0200 lvl=info msg="run component" obj=controller comp="memory storage"
+t=2017-09-29T10:22:14+0200 lvl=info msg="run component" obj=controller comp=updater
+t=2017-09-29T10:22:14+0200 lvl=info msg="run component" obj=controller comp="Tunnel session"
+t=2017-09-29T10:22:14+0200 lvl=info msg="run component" obj=controller comp=web
+t=2017-09-29T10:22:14+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2017-09-29T10:22:15+0200 lvl=info msg="tunnel session started" obj=tunSess
+t=2017-09-29T10:22:15+0200 lvl=info msg="client session established" obj=csess id=6302f72b7114
+t=2017-09-29T10:23:02+0200 lvl=info msg="Got quit command" obj=consoleui
+t=2017-09-29T10:23:02+0200 lvl=info msg="component stopped" obj=controller comp=consoleui err=nil
+t=2017-09-29T10:23:02+0200 lvl=info msg="requesting shutdown" obj=controller
+t=2017-09-29T10:23:02+0200 lvl=info msg="component stopped" obj=controller comp="memory storage" err=nil
+t=2017-09-29T10:23:02+0200 lvl=info msg="component stopped" obj=controller comp=web err=nil
+t=2017-09-29T10:23:02+0200 lvl=info msg="component stopped" obj=controller comp=updater err=nil
+t=2017-09-29T10:23:02+0200 lvl=info msg="session closing" obj=tunSess err=nil
+t=2017-09-29T10:23:02+0200 lvl=info msg="component stopped" obj=controller comp="Tunnel session" err=nil
+t=2017-09-29T10:23:02+0200 lvl=info msg="tunnel session closing permanently" obj=tunSess err="not reconnecting, session closed by the client side"
+t=2017-09-29T10:23:02+0200 lvl=info msg="accept failed" obj=csess id=6302f72b7114 err="reconnecting session closed"
+t=2017-09-29T10:23:02+0200 lvl=info msg="all component stopped" obj=controller
+t=2017-09-29T10:24:43+0200 lvl=info msg="no configuration paths supplied"
+t=2017-09-29T10:24:43+0200 lvl=info msg="using configuration at default config path" path=C:\\Users\\Jim/.ngrok2/ngrok.yml
+t=2017-09-29T10:24:43+0200 lvl=info msg="open config file" path=C:\\Users\\Jim\\.ngrok2\\ngrok.yml err=nil
+t=2017-09-29T10:24:43+0200 lvl=dbug msg="init storage" obj=controller mem size=52428800 err=nil
+t=2017-09-29T10:24:43+0200 lvl=dbug msg="Dialing direct, no proxy" obj=tunSess
+t=2017-09-29T10:24:43+0200 lvl=info msg="run component" obj=controller comp="memory storage"
+t=2017-09-29T10:24:43+0200 lvl=info msg="run component" obj=controller comp=consoleui
+t=2017-09-29T10:24:43+0200 lvl=info msg="run component" obj=controller comp=updater
+t=2017-09-29T10:24:43+0200 lvl=dbug msg="update check" obj=updater
+t=2017-09-29T10:24:43+0200 lvl=info msg="run component" obj=controller comp="Tunnel session"
+t=2017-09-29T10:24:43+0200 lvl=info msg="run component" obj=controller comp=web
+t=2017-09-29T10:24:43+0200 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2017-09-29T10:24:43+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:43+0200 lvl=dbug msg="Resize event, redrawing" obj=consoleui
+t=2017-09-29T10:24:43+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:44+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:45+0200 lvl=dbug msg="no update available" obj=updater
+t=2017-09-29T10:24:45+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:46+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:47+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:48+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:49+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:49+0200 lvl=dbug msg="open stream" obj=csess id=d14265d2403b reqtype=0 err=nil
+t=2017-09-29T10:24:49+0200 lvl=dbug msg="encode request" obj=csess id=d14265d2403b sid=3 req="&{Version:[2] ClientId: Extra:0xc04211f480}" err=nil
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="decoded response" obj=csess id=d14265d2403b sid=3 resp="&{Version:2 ClientId:43827d6be301638b7876b162b0a964e8 Error: Extra:map[Version:2.1.18 Cookie:nnkVFkq7vHZGEi5LkiV23y1WaMick7B7$kIMqYd3Rg9tHc+dZ3Z/69dwVimf8995uADZZFFKgFcgtyLzW/gUtWIMtUOF10fGifdiju9DNh9q4KHqU/HJbYeuANkbpF0Foz6ATKM2BkG9FsdvO/GjJHBbdDMM2akuZd8o09zdjtTjhYgPafa0jnFA+4xhbyhDbasRqRgjPxTxKTBJ/otEmi7qZkDJQPYLLNQ34K7eZoqzLbyf5 AccountName:fabrichqngrok@gmail.com SessionDuration:0 PlanName:Free]}" err=nil
+t=2017-09-29T10:24:50+0200 lvl=info msg="tunnel session started" obj=tunSess
+t=2017-09-29T10:24:50+0200 lvl=info msg="client session established" obj=csess id=3a55dd342fcd
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="open stream" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 reqtype=1 err=nil
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="encode request" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 sid=7 req="&{Id: ClientId: Proto:https Opts:0xc04210fbf0 Extra:0xc042118aa0}" err=nil
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="decoded response" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 sid=7 resp="&{ClientId:3de69de6f5137c67150c8fa37acaa938 URL:https://977f2f7a.ngrok.io Proto:https Opts:map[Hostname:977f2f7a.ngrok.io Auth: Subdomain:] Error: Extra:map[Token:P5pMIu0v5KeWtv/naOP9yc0X+Xjn0jTX$wrr+6TQFAyHpDirK2pLoUDZrkFxI60BK2X90xGoJvwmjTlREISiTamzBCBh0EvJR8ceoJwXOI1zZ+gzzYrmZBNueYwaVZjlU+/FviHtBVpRpHDM9AnjfVyR2qwq8Zs/uWzM=]}" err=nil
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="start tunnel listen" obj=tunSess name=command_line proto=https opts="&{Hostname: Auth: Subdomain:}" err=nil
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="open stream" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 reqtype=1 err=nil
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="encode request" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 sid=9 req="&{Id: ClientId: Proto:http Opts:0xc042333c20 Extra:0xc04242b0e0}" err=nil
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="decoded response" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 sid=9 resp="&{ClientId:510973612e04466d5a7955b1f8f10812 URL:http://977f2f7a.ngrok.io Proto:http Opts:map[Subdomain: Hostname:977f2f7a.ngrok.io Auth:] Error: Extra:map[Token:Ou8DCWqKtOR16I57IhLLFaVSBtZqRVDe$XRyz2wdH02K+TigV5e2yfNTeGoVs6fQZO0OG1dy5b0ZEP+9d8f7QyToM0XQWQjaktZ10Em/o6yByZ+SrY1plBkWeIcvisPnlytXBPkdmA4T/I3T06VYvw2ltH1i8ElAo7A==]}" err=nil
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="start tunnel listen" obj=tunSess name="command_line (http)" proto=http opts="&{Hostname:977f2f7a.ngrok.io Auth: Subdomain:}" err=nil
+t=2017-09-29T10:24:50+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:51+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:52+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:53+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:54+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:55+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:56+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:57+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:58+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:24:59+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:00+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=226
+t=2017-09-29T10:25:00+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:01+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:02+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:03+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:04+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:05+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:06+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:07+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:08+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:09+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:10+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=231
+t=2017-09-29T10:25:10+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:11+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:12+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:13+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:14+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:15+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:16+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:17+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:18+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:19+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:20+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:20+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=222
+t=2017-09-29T10:25:21+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:22+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:23+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:24+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:25+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:26+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:27+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:28+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:29+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:30+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:30+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=220
+t=2017-09-29T10:25:31+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:32+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:33+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:34+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:35+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:36+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:37+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:38+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:39+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:40+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:40+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=228
+t=2017-09-29T10:25:41+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:42+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:43+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:44+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:45+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:46+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:47+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:48+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:49+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:50+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:51+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=229
+t=2017-09-29T10:25:51+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:52+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:53+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:54+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:55+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:56+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:57+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:58+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:25:59+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:00+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:01+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=222
+t=2017-09-29T10:26:01+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:02+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:03+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:04+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:05+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:06+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:07+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:08+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:09+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:10+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:11+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:11+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=220
+t=2017-09-29T10:26:12+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:13+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:14+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:15+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:16+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:17+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:18+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:19+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:20+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:21+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:21+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=225
+t=2017-09-29T10:26:22+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:23+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:24+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:25+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:26+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:27+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:28+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:29+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:30+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:31+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:32+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=222
+t=2017-09-29T10:26:32+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:33+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:34+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:35+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:36+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:37+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:38+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:39+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:40+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:41+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:42+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=220
+t=2017-09-29T10:26:42+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:43+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:44+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:45+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:46+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:47+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:48+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:49+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:50+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:51+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:52+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:52+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=219
+t=2017-09-29T10:26:53+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:54+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:55+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:56+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:57+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:58+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:26:59+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:00+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:01+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:02+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:02+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=227
+t=2017-09-29T10:27:03+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:04+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:05+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:06+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:07+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:08+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:09+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:10+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:11+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:12+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:13+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=229
+t=2017-09-29T10:27:13+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:14+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:15+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:16+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:17+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:18+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:19+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:20+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:21+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:22+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:23+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=220
+t=2017-09-29T10:27:23+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:24+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:25+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:26+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:27+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:28+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:29+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:30+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:31+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:32+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:33+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=223
+t=2017-09-29T10:27:33+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:34+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:35+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:36+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:37+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:38+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:39+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:40+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:41+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:42+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:43+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:43+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=222
+t=2017-09-29T10:27:44+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:45+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:46+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:47+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:48+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:49+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:50+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:51+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:52+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:53+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:54+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=329
+t=2017-09-29T10:27:54+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:55+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:56+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:57+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:58+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:27:59+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:00+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:01+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:02+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:03+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:04+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=219
+t=2017-09-29T10:28:04+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:05+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:06+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:07+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:08+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:09+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:10+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:11+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:12+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:13+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:14+0200 lvl=dbug msg="heartbeat received" obj=csess id=d14265d2403b clientid=43827d6be301638b7876b162b0a964e8 latency_ms=222
+t=2017-09-29T10:28:14+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:15+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:16+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:17+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:18+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:19+0200 lvl=dbug msg="waiting for update" obj=consoleui
+t=2017-09-29T10:28:19+0200 lvl=info msg="Got quit command" obj=consoleui
+t=2017-09-29T10:28:19+0200 lvl=info msg="component stopped" obj=controller comp=consoleui err=nil
+t=2017-09-29T10:28:19+0200 lvl=info msg="requesting shutdown" obj=controller
+t=2017-09-29T10:28:19+0200 lvl=info msg="component stopped" obj=controller comp=web err=nil
+t=2017-09-29T10:28:19+0200 lvl=info msg="component stopped" obj=controller comp="memory storage" err=nil
+t=2017-09-29T10:28:19+0200 lvl=info msg="session closing" obj=tunSess err=nil
+t=2017-09-29T10:28:19+0200 lvl=info msg="component stopped" obj=controller comp=updater err=nil
+t=2017-09-29T10:28:19+0200 lvl=info msg="component stopped" obj=controller comp="Tunnel session" err=nil
+t=2017-09-29T10:28:19+0200 lvl=info msg="accept failed" obj=csess id=3a55dd342fcd err="reconnecting session closed"
+t=2017-09-29T10:28:19+0200 lvl=info msg="all component stopped" obj=controller
+t=2017-09-29T10:28:19+0200 lvl=info msg="tunnel session closing permanently" obj=tunSess err="not reconnecting, session closed by the client side"
